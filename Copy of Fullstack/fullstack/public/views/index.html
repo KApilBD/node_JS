@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <title>FullStack</title>
+</head>
+<body>
+            
+    <div class="alert alert-warning"><h1 style= color:white important>Node JS App</h1>
+        </div>    
+
+        <div class="jumbotron">
+            <form action="dbroutes/addpeople" method="post" >
+            <table>
+                <tr>
+                    <th>SNo</th>
+                    <td><input type="text" name="sno"></td>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <th>City</th>
+                    <td><input type="text" name="city"></td>
+                </tr>
+                <!--<tr>
+                    <th>Resume</th>
+                    <td><input type="file" name="resume"></td>
+                </tr>-->
+
+                 <tr>
+                   
+                    <td align="center" colspan=2>
+                        <input type="submit" class="btn btn-success" ></td> 
+                    </tr>
+            </table>
+            </form>
+        </div>
+
+        <div class="jumbotron">
+            <!--<iframe name="test" src="table"></iframe>-->
+            <iframe name="test" src="dbroutes/people"></iframe>
+        </div>
+
+</body>
+</html>

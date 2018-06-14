@@ -1,0 +1,25 @@
+h1{
+    background-color: rgb(74,129,536);
+    color: white important;
+    text-align: center;
+}
+
+iframe{
+    width: 100%;
+    min-height: 400px;
+    border:none;
+    background-color: rgb(74,129,536);
+}
+
+th{
+    background-color: rgb(74,129,536);
+    color: white;   
+}
+
+td{
+    background-color: white;
+    color: rgb(74,129,536);
+    height: 30px;
+    width: 130px;
+
+}

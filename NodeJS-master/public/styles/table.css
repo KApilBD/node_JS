@@ -1,0 +1,12 @@
+th{
+    background-color: darkblue;
+    color: white;
+    height: 30px;
+    width: 130px;
+}
+td{
+    background-color: lightgoldenrodyellow;
+    color: darkblue;
+    height: 30px;
+    width: 130px;
+}

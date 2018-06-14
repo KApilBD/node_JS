@@ -1,0 +1,1 @@
+[{"sno":"1","name":"Kapil","city":"Indore"},{"sno":"2","name":"Atty","city":"Bangalore"},{"sno":"3","name":"Sidd","city":"Indore"}]
