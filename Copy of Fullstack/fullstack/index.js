@@ -7,6 +7,8 @@ var fileUpload = require ('express-fileupload');
 
 
 
+
+
 //parsing the incoming request, after submit the data will parse to JS format data
 app.use(bodyParser.urlencoded());
 //parse the file that is uploaded
@@ -72,6 +74,7 @@ app.get('/',(request,response)=>{
 app.use(exp.static(__dirname+'/public/styles'));
 app.use(exp.static(__dirname+'/public/scripts'));
 app.use(exp.static(__dirname+'/bower_components'));
+app.use(exp.static(__dirname+'/public/amodule'));
 
 app.set('views',__dirname+'/public/templates');
 app.set('view engine', 'ejs');
@@ -91,3 +94,9 @@ app.get('/home',(request,response)=>{
     response.sendFile(__dirname+"/public/views/index.html");
 })
 
+
+
+
+app.get('/restclient',(request,response)=>{
+    response.sendFile(__dirname+"/public/views/angular.html");
+})
